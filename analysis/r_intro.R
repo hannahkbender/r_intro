@@ -64,6 +64,4 @@ write_excel_csv(summary_stats, file.path(export, "summary_stats.xlsx")) # object
 ggsave(file.path(export, "sepal_v_petal_length_plot.png"), plot)        # path then object
 
 
-iris_clean %>% 
-  mutate(row_min = pmin(petal_width, petal_length))
 
