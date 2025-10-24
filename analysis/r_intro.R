@@ -1,4 +1,5 @@
 # Description
+# An example R script to provide familiarity with a few basic commands
 
 # Author: Hannah
 # Version: 2025-10-31
@@ -62,6 +63,4 @@ write.csv(iris_clean, file.path(build, "iris_with_ratio.csv"), row.names = FALSE
 # 6. Save summary stats and plot
 write_excel_csv(summary_stats, file.path(export, "summary_stats.xlsx")) # object then path
 ggsave(file.path(export, "sepal_v_petal_length_plot.png"), plot)        # path then object
-
-
 
